@@ -40,7 +40,7 @@ config = dict(
         'Topic :: Software Development :: Libraries :: Python Modules'],
     py_modules = ['pydot', 'dot_parser'],
     install_requires = ['pyparsing', 'setuptools'],
-    data_files = [('.', ['LICENSE', 'README'])])
+    data_files = [('.', ['LICENSE', 'README.rst'])])
 
 
 if sys.version_info >= (3,):
